@@ -1,0 +1,24 @@
+.controls{
+    width: 75%;
+    display: flex;
+    padding: 1em;
+}
+
+#paraBox{
+    display: flex;
+}
+
+#statusParagraph{
+    flex: 50%;
+
+}
+
+#commandParagraph{
+    flex: 50%;
+}
+
+.btn{
+    height: 3em;
+    margin-right: 1em;
+
+}

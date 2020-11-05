@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+    <title>MyTier WebBLE Client</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="bundle.js" defer></script>
+</head>
+<body>
+
+<h1>myTier BLE Client</h1>
+
+Version: 0.1.0
+
+<div class ="controls">
+
+    <button class="btn" id="scanBtn" type="button">Scan for Scooter</button>
+
+    <button class="btn" id="borrowBtn" type="button">Borrow Scooter</button>
+
+    <button class="btn" id="resetBtn" type="button">Reset</button>
+
+</div>
+
+<div class="scooter">
+
+    <b>Scooter name:</b> <p id="scooterName"> Not Connected </p>
+
+    <form>
+        <label for="password"> Password</label>
+        <input type="text" id="password" name="password" value="ES200BT"><br>
+
+    </form>
+
+    <div class ="controls">
+
+        <button class="btn" id="connectBtn" type="button">Connect</button>
+
+        <button class="btn" id="passwordBtn" type="button">Password</button>
+
+        <button class="btn" id="unlockBtn" type="button">Unlock</button>
+
+        <button class="btn" id="lockBtn" type="button">Lock</button>
+
+        <button class="btn" id="ledOn" type="button">ledOn</button>
+
+        <button class="btn" id="ledOff" type="button">ledOff</button>
+
+        <button class="btn" id="paramBtn" type="button">Params</button>
+
+        <button class="btn" id="lendBtn" type="button">Lend Scooter</button>
+
+        <button class="btn" id="disconnectBtn" type="button">Disconnect</button>
+
+
+    </div>
+
+    <div id="paraBox">
+        <p id="statusParagraph">
+
+            <b>Status Report:</b> <br>
+            Speed: 0 km/h<br>
+            Current Distance: 0 meters<br>
+            Range Left: 0<br>
+            Odometer: 0<br>
+            Riding Time: 0<br>
+            Battery Level: NA <br>
+            Acceleration: 0 %<br>
+            Left Brake: 0 %<br>
+            Right Brake: 0 %<br>
+
+        </p>
+
+        <p id="commandParagraph">
+
+            <b>Command Report:</b> <br>
+            Command Successful: false<br>
+            Lock Status: locked<br>
+            Led Status: off<br>
+
+        </p>
+    </div>
+
+
+
+
+</div>
+
+
+
+
+
+</body>
+</html>

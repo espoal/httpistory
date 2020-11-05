@@ -1,0 +1,16 @@
+{
+  "name": "httpistory",
+  "version": "0.0.1",
+  "description": "History of HTTP",
+  "main": "index.js",
+  "repository": "git@github.com:espoal/httpistory.git",
+  "author": "alberto <alberto.websci@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "h2": "node server/http2.mjs"
+  },
+  "devDependencies": {
+    "standard": "^16.0.1"
+  }
+}
